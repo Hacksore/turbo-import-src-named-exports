@@ -6,14 +6,8 @@
     "lint": "eslint \"**/*.ts*\""
   },
   "exports": {
-    "based": {
-      ".": "./src/based/index.ts",
-      "import": "./src/based/index.ts"
-    },
-    "cringe": {
-      ".": "./src/based/index.ts",
-      "import": "./src/cringe/index.ts"
-    }
+    "./based": "./src/based/index.ts",
+    "./cringe": "./src/cringe/index.ts"
   },
   "typesVersions": {
     "*": {
